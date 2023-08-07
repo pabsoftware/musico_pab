@@ -5,65 +5,131 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guitarrista - Paulo Assunção</title>
     <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <style>
+       
+        .row-card{
+            margin-top: 50px;
+        }
+
+        .card img{
+            padding: 8px;
+        }
+        footer{
+        margin-top: 50px;
+        padding: 2px;
+        background-color: #43444b;
+        color: white;
+        text-align: center;
+        } 
+    </style>
 </head>
 <body>
         
-           
-    <div class="row">
-            <div id="carousel-principal" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                <div  class="corousel-inner">
-                    <div data-bs-interval="3000" class="carousel-item active">
-                        <img class="d-block w-100" src="./lib/img/paulo2.png" alt="">
-                        <div class="carousel-caption">
-                            <h3>Guitarrista Paulinho - louvor e adoração</h3>
-                        </div>
-                    </div>
-                    <div data-bs-interval="3000" class="carousel-item">
-                        <img class="d-block w-100" src="./lib/img/paulo1.png" alt="">
-                        <div class="carousel-caption">
-                            <h3>Tocar lhe torna mais produtivo ....</h3>
-                        </div>
-                    </div>
-                    <div data-bs-interval="3000" class="carousel-item">
-                        <img class="d-block w-100" src="./lib/img/paulo3.png" alt="">
-                        <div class="carousel-caption">
-                            <h3>Tocar aumenta coordenação motora e muito mais.</h3>
-                        </div>
-                    </div>
-                </div>
-                <button data-bs-target="#carousel-principal" data-bs-slide="prev" class="carousel-control-prev" type="button">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button data-bs-target="#carousel-principal" data-bs-slide="next" class="carousel-control-next" type="button">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
-                <div class="carousel-indicators">
-                    <button class="active" type="button" data-bs-target="#carousel-principal" data-bs-slide-to="0"></button>
-                    <button type="button" data-bs-target="#carousel-principal" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#carousel-principal" data-bs-slide-to="2"></button>
-                </div>
-            </div>
-    </div>
-    <div class="container">
+    <div class="container">       
         <div class="row">
-            <div class="col-sm-4">
-                <div class="card">
-
+                <div id="carousel-principal" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div  class="corousel-inner">
+                        <div data-bs-interval="3000" class="carousel-item active">
+                            <img class="d-block w-100 rounded" src="./lib/img/paulo3.png" alt="">
+                            <div class="carousel-caption">
+                                <h3>Guitarrista Paulinho - louvor e adoração</h3>
+                            </div>
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block w-100 rounded" src="./lib/img/paulo1.png" alt="">
+                            <div class="carousel-caption">
+                                <h3>Tocar lhe torna mais produtivo ....</h3>
+                            </div>
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block w-100 rounded" src="./lib/img/paulo2.png" alt="">
+                            <div class="carousel-caption">
+                                <h3>Tocar aumenta coordenação motora e muito mais.</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <button data-bs-target="#carousel-principal" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button data-bs-target="#carousel-principal" data-bs-slide="next" class="carousel-control-next" type="button">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button class="active" type="button" data-bs-target="#carousel-principal" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel-principal" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel-principal" data-bs-slide-to="2"></button>
+                    </div>
                 </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card">
-
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card">
-                    
-                </div>
-            </div>
         </div>
+        
+            <div class="row row-card">
+                <div class=" col-sm-6 col-lg-4">
+                    <article class="card">
+                        <header class="card-header">
+                            <h5> Guitarra Telecaster</h5>
+                        </header>
+                        <img src="https://musicclan.com.br/wp-content/uploads/2017/10/tipos-de-guitarras_telecaster-1024x576.png" alt="">
+                        <div class="card-body">
+                            Entre todos os tipos de guitarra, a Telecaster tem um lugar especial. 
+                            Apesar de não ser o mais famoso, esse é o modelo que pode ser considerado a 
+                            origem das guitarras de corpo sólido. Desenvolvido originalmente pela Fender, 
+                            no início dos anos 1950, o instrumento foi inicialmente chamado de Broadcaster.
+                            Caracteristicamente, a Telecaster tem o corpo feito em madeira Alder. 
+                            Também é comum que esse instrumento tenha braço e escala construído com uma única peça de madeira Maple. 
+                            Outra característica é que o braço da guitarra é parafusado no corpo.
+                        </div>
+                        <footer class="card-footer">
+                            <a class="btn btn-primary d-block" href="https://musicclan.com.br/blog/tipos-de-guitarra/" target="_blank">Ler mais sobre Telecaster</a>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <article class="card ">
+                        <header class="card-header">
+                            <h5> Guitarra Stratocaster</h5>
+                        </header>
+                        <img src="https://musicclan.com.br/wp-content/uploads/2017/10/tipos-de-guitarras_stratocaster-1024x576.png"  alt="">
+                        <div class="card-body">
+                            <p>
+                                Quando falamos em tipos de guitarra, esse é provavelmente o mais famoso. 
+                                Talvez essa frase seja um pouco exagerada, afinal, não dá para saber com certeza 
+                                qual o instrumento mais popular do planeta, mas com certeza a Stratocaster é uma das 
+                                primeiras opções de muitos guitarristas.
+                                Esse modelo foi criado pela Fender, em 1954, como uma derivação da Telecaster. 
+                                Popularizado posteriormente por guitarristas lendários, como Jimi Hendrix, 
+                                a versatilidade desse instrumento é o que faz dele um best seller.
+                            </p>
+                        </div>
+                        <footer class="card-footer">
+                            <a class="btn btn-primary d-block" href="https://musicclan.com.br/blog/tipos-de-guitarra/" target="_blank">Ler mais sobre Stratocaster</a>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <article class="card">
+                        <header class="card-header">
+                            <h5> Guitarra Les paul</h5>
+                        </header>
+                        <img src="https://musicclan.com.br/wp-content/uploads/2017/10/tipos-de-guitarras_les-paul-1024x576.png" alt="">
+                        <div class="card-body">
+                           <p>
+                            Esse é um dos tipos de guitarra mais conhecidos de todos os tempos. Também fabricada em série a partir do início dos anos 1950, o modelo Les Paul é o carro chefe da Gibson.
+                            Uma das características mais marcantes desse instrumento é o corpo feito em madeira Mogno. 
+                            Uma curiosidade é que hoje em dia a produção desse modelo de guitarra nos Estados Unidos está sendo feita Maple. 
+                            Isso por causa das leis ambientais no país. O braço da Les Paul é colado no corpo, o que difere bastante dos tipos de guitarra da Fender.
+                           </p>
+                        </div>
+                        <footer class="card-footer">
+                            <a class="btn btn-primary d-block" href="https://musicclan.com.br/blog/tipos-de-guitarra/" target="_blank">Ler mais sobre Les Paul</a>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+            <footer>
+                <p>&copy; Todos os direitos reservado -  Paulo Assunção 2023</p>
+            </footer>
     </div>
-
+  
     <script src="./lib/bootstrap.bundle.min.js"></script>
 </body>
 </html>
