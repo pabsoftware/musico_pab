@@ -7,36 +7,44 @@
     <link rel="stylesheet" href="./lib/bootstrap.min.css">
 </head>
 <body>
-    <header>
-        <div id="carousel-paulo" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div  class="corousel-inner">
-                <div data-bs-interval="3000" class="carousel-item active">
-                    <img src="./lib/img/paulo2.png" alt="">
-                    <div class="carousel-caption">
-                        <h3>Guitarrista Paulinho - louvor e adoração</h3>
+        
+           
+    <div class="row">
+            <div id="carousel-principal" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div  class="corousel-inner">
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img class="d-block w-100" src="./lib/img/paulo2.png" alt="">
+                        <div class="carousel-caption">
+                            <h3>Guitarrista Paulinho - louvor e adoração</h3>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="./lib/img/paulo1.png" alt="">
+                        <div class="carousel-caption">
+                            <h3>Tocar lhe torna mais produtivo ....</h3>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="./lib/img/paulo3.png" alt="">
+                        <div class="carousel-caption">
+                            <h3>Tocar aumenta coordenação motora e muito mais.</h3>
+                        </div>
                     </div>
                 </div>
-                <div data-bs-interval="3000" class="carousel-item">
-                    <img src="./lib/img/paulo1.png" alt="">
-                    <div class="carousel-caption">
-                        <h3>Tocar lhe torna mais produtivo ....</h3>
-                    </div>
-                </div>
-                <div data-bs-interval="3000" class="carousel-item">
-                    <img src="./lib/img/paulo3.png" alt="">
-                    <div class="carousel-caption">
-                        Tocar aumenta coordenação motora e muito mais.
-                    </div>
+                <button data-bs-target="#carousel-principal" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel-principal" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel-principal" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel-principal" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-principal" data-bs-slide-to="2"></button>
                 </div>
             </div>
-            <button data-bs-target="#carousel-paulo" data-bs-slide="prev" class="carousel-control-prev" type="button">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button data-bs-target="#carousel-paulo" data-bs-slide="next" class="carousel-control-next" type="button">
-                <span class="carousel-control-next-icon"></span>
-            </button>
-        </div>
-    </header>
+    </div>
+    
 
     <script src="./lib/bootstrap.bundle.min.js"></script>
 </body>
